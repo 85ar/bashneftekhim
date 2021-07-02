@@ -380,4 +380,47 @@ img {
 body {
   font-family: 'Fira Sans', sans-serif;
 }
+
+.navbar {
+  height: 699px;
+  background: #E6E9ED url("../img/main-image.png");
+  background-repeat: no-repeat;
+  background-position: -200px -248px;
+}
+
+.navbar-wrapper {
+  padding-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.navbar__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.navbar__logo {
+  margin-right: 21px;
+}
+
+.navbar__login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */

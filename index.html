@@ -8,32 +8,52 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="header-wrapper">
-        <a href="index.html" class="header-link">
-          <svg width="62" height="65" class="header__logo">
+    <header class="navbar">
+      <div class="navbar-wrapper">
+        <a href="index.html" class="navbar__link">
+          <svg width="62" height="65" class="navbar__logo">
             <use xlink:href="img/icons.svg#logo"></use>
           </svg>
-          <svg width="218" height="43" class="header__logo">
+          <svg width="218" height="43" class="navbar__description">
             <use xlink:href="img/icons.svg#logo-description"></use>
           </svg>
         </a>
-        <a href="#" class="header-language">
-          <svg width="33" height="33" class="header__language">
+        <a href="#" class="navbar__language language">
+          <svg width="33" height="33" class="language__icon">
             <use xlink:href="img/icons.svg#language"></use>
           </svg>
         </a>
-        <div class="header-contacts contact">
+        <div class="navbar__contacts contact">
           <a href="tel:+73472462295" class="contact__phone"
             >+7 (347) 246-22-95</a
           >
-          <a
-            href="mailto:mail@ufaucheba.ru"
-            class="contact__email"
+          <a href="mailto:mail@ufaucheba.ru" class="contact__email"
             >mail@ufaucheba.ru</a
           >
         </div>
-      </div>
+        <div class="navbar__login login">
+          <a href="#" class="login__link">
+            <svg width="33" height="33" class="login__icon">
+              <use xlink:href="img/icons.svg#login"></use>
+            </svg>
+            ВОЙТИ В LMS
+          </a>
+        </div>
+        <button class="navbar__search search">
+          <svg width="33" height="33" class="search__icon">
+            <use xlink:href="img/icons.svg#search"></use>
+          </svg>
+        </button>
+        <div class="navbar__menu menu">
+          <a href="#" class="menu__link">
+            <svg width="48" height="48" class="menu__icon">
+            <use xlink:href="img/icons.svg#menu"></use>
+          </svg>
+          МЕНЮ
+          </a>
+        </div>
+      </header>
+      <!-- /header-wrapper -->
     </div>
     <!-- /.header -->
     <main class="main">
