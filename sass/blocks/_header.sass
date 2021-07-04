@@ -1,9 +1,9 @@
 .navbar
   height: 699px
-  background: #E6E9ED url('../img/main-image.png')
-  background: #E6E9ED url('../img/puzzle.png')
-  background-repeat: no-repeat
-  background-position: -274px -101px
+  background: url(../img/main-image.png) -279px -159px no-repeat,url(../img/main-image-path.png) 392px -156px no-repeat
+  // background: url('../img/puzzle.png')
+  // background-repeat: no-repeat
+  // background-position: -274px -101px -161px 400px
   &-wrapper
     padding-top: 32px
     display: flex
@@ -16,6 +16,8 @@
     margin-right: 38px
   &__login
     margin-right: 38px
+  &__search
+    margin-right: 24px
 
 .logo
   &__icon
@@ -48,6 +50,55 @@
     line-height: 24px
     letter-spacing: 0.65px
     color: #1A1919
+.search
+  background-color: transparent
+.menu
+  width: 107px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  &__text
+    font-weight: 600
+    font-size: 13px
+    line-height: 24px
+    letter-spacing: 0.65px
+    color: #1A1919
+.swiper
+  &-container
+    width: 600px
+    height: 300px
+.slide-1
+  max-width: 348px
+  height: 290px
+  &__list
+    list-style-type: disc
+    margin-bottom: 22px
 
-
-
+  &__item
+    font-weight: 500
+    font-size: 18px
+    line-height: 28px
+    color: #24686F
+  &__link
+    border-bottom: 1.3px solid #24686F
+  &__title
+    font-weight: 800
+    font-size: 40px
+    line-height: 48px
+    color: #1A1919
+    margin-bottom: 26px
+.breadcrumbs
+  // width: 170px
+  display: flex
+  align-items: center
+  &__item:first-child::after
+    content: "/"
+    margin-right: 4px
+  &__list
+    display: flex
+    margin-right: 16px
+  &__item
+    font-weight: normal
+    font-size: 13px
+    line-height: 28px
+    color: #AAB2BD
