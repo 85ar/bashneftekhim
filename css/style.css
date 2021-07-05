@@ -600,7 +600,7 @@ body {
 }
 
 .courses {
-  padding: 84px 358px 0 359px;
+  padding: 84px 358px 123px 359px;
 }
 
 .courses-wrapper {
@@ -618,6 +618,13 @@ body {
 
 .courses__color {
   color: #E36837;
+}
+
+.course {
+  width: 722px;
+  height: 103px;
+  border-bottom: 1px solid #E6E9ED;
+  margin-bottom: 38px;
 }
 
 .course__link {
@@ -647,5 +654,56 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.solutions {
+  padding: 0 207px 92px 167px;
+}
+
+.solutions-wrapper {
+  width: 1065px;
+}
+
+.block-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 17px;
+}
+
+.block-1__image {
+  width: 525px;
+  height: 499px;
+  margin-right: 138px;
+}
+
+.info__title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 43px;
+  color: #1A1919;
+  margin-bottom: 20px;
+  width: 314px;
+}
+
+.info__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1A1919;
+  width: 307px;
+}
+
+.block-2 {
+  margin-left: 103px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
