@@ -1,4 +1,4 @@
-const swiper = new Swiper(".swiper-container", {
+const swiper = new Swiper(".navbar__hero", {
   direction: "horizontal",
   loop: true,
   slidesPerView: 1,
@@ -6,20 +6,20 @@ const swiper = new Swiper(".swiper-container", {
     enabled: true,
   },
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper-pagination-header",
   },
   navigation: {
-    nextEl: ".swiper-button-next",
+    nextEl: ".swiper-button-header",
   },
 });
 const swiper2 = new Swiper(".partners-wrapper", {
   direction: "horizontal",
-  spaceBetween: 50,
+  // spaceBetween: 50,
   slidesPerView: 7,
   loop: true,
-  // autoplay: {
-  //   delay: 1200,
-  // },
+  autoplay: {
+    delay: 1500,
+  },
   keyboard: {
     enabled: true,
   },
