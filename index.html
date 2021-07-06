@@ -16,6 +16,7 @@
       <div class="container">
         <div class="navbar-wrapper">
           <a href="index.html" class="navbar__logo logo">
+            <img src="img/logo-new.png" alt="" class="logo-visible" />
             <svg width="61" height="64" class="logo__icon">
               <use xlink:href="img/icons.svg#logo"></use>
             </svg>
@@ -337,8 +338,10 @@
             placeholder="Email или номер телефона"
           />
           <input type="password" class="modal__input" placeholder="Пароль" />
-          <button class="modal__button">Войти</button>
-          <a href="#" class="modal__info">Восстановление пароля</a>
+          <div class="button-info">
+            <button class="modal__button">Войти</button>
+            <a href="#" class="modal__info">Восстановление пароля</a>
+          </div>
         </form>
       </div>
       <!-- /.modal__dialog -->

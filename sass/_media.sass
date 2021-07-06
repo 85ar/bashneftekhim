@@ -2,6 +2,10 @@
   .contact
     &-visible
       display: none
+@media (min-width: 767px)
+  .logo
+    &-visible
+      display: none
 @media (max-width: 1400px)
   .navbar
     &__logo
@@ -140,7 +144,9 @@
       margin-right: 50px
     &__link
       margin-right: 50px
-
+  .info
+    &__text
+      width: 275px
 @media (max-width: 992px)
   .courses
     padding-bottom: 0
@@ -174,6 +180,14 @@
       width: 288px
       height: 426px
 
+@media (max-width: 870px)
+  .modal
+    &__dialog
+        padding: 25px 35px
+    &__button
+      padding: 15px
+      min-width: 100px
+
 @media (max-width: 850px)
   .hero
     margin-left: 360px
@@ -196,9 +210,99 @@
       margin-right: 30px
     &__text
       margin-right: 20px
-// @media (max-width: 767px)
-// @media (max-width: 576px)
+  .courses
+    &-wrapper
+      width: 650px
 
+@media (max-width: 767px)
+  .navbar
+    background-image: none
+    &__menu
+      width: 55px
+  .logo
+    &__icon, &__description
+      display: none
+  .hero
+    margin-left: 75px
+  .courses
+    &-wrapper
+      width: 600px
+  .logo
+    &-visible
+      width: 60px
+      margin-right: 25px
+  .block-1
+    &__image
+      width: 229px
+      height: 221px
+      margin-right: 25px
+  .block-2
+    margin-left: 0
+    &__image
+      width: 214px
+      height: 295px
+    &__info
+      margin-right: 15px
+  .info
+    &__title
+      width: 245px
+      font-size: 18px
+    &__text
+      font-size: 14px
+      width: 250px
+  .footer
+    padding: 30px 0 30px 0
+    &-wrapper
+      flex-direction: column
+  .menu
+    &__text
+      display: none
+
+@media (max-width: 660px)
+  .button
+    &-info
+      display: flex
+      flex-direction: column
+  .modal
+    &__button
+      width: 100%
+      margin-bottom: 10px
+
+@media (max-width: 610px)
+  .navbar
+    &__logo
+      margin-right: 2px
+    &__language
+      margin-right: 20px
+    &__contacts
+      margin-right: 20px
+  .courses
+    &-wrapper
+      width: 520px
+
+@media (max-width: 576px)
+  .courses
+    &-wrapper
+      width: 450px
+  .block-1
+    &__image
+      width: 160px
+      height: 160px
+      margin-right: 17px
+  .block-2
+    &__image
+      width: 177px
+      height: 227px
+    &__info
+      margin-right: -20px
+  .logo
+    &-visible
+      margin-right: 10px
+  .navbar
+    &__login
+      margin-right: 0px
+    &__search
+      margin-right: 10px
 // @media (min-width: 320px) and (max-width: 480px)
 
 

@@ -25,6 +25,10 @@ const swiper2 = new Swiper(".partners-wrapper", {
     enabled: true,
   },
   breakpoints: {
+    319: {
+      slidesPerView: 1,
+      spaceBetween: 5,
+    },
     480: {
       slidesPerView: 1,
       spaceBetween: 5,
