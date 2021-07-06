@@ -11,6 +11,7 @@ const swiper = new Swiper(".navbar__hero", {
   navigation: {
     nextEl: ".swiper-button-header",
   },
+
 });
 const swiper2 = new Swiper(".partners-wrapper", {
   direction: "horizontal",
@@ -23,7 +24,30 @@ const swiper2 = new Swiper(".partners-wrapper", {
   keyboard: {
     enabled: true,
   },
+  breakpoints: {
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 5,
+    },
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 5,
+    },
+    767: {
+      slidesPerView: 3,
+      spaceBetween: 5,
+    },
+    992: {
+      slidesPerView: 4,
+      spaceBetween: 10,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 20,
+    },
+  },
 });
+
 AOS.init();
 
 AOS.init({

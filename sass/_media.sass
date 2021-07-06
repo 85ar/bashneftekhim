@@ -1,3 +1,7 @@
+@media (min-width: 1024px)
+  .contact
+    &-visible
+      display: none
 @media (max-width: 1400px)
   .navbar
     &__logo
@@ -47,7 +51,7 @@
 
 @media (max-width: 1200px)
   .solutions
-    padding: 0 10px 92px 35px
+    padding: 0 10px 92px 75px
 
 @media (max-width: 1110px)
   .logo
@@ -60,12 +64,13 @@
     margin-left: 670px
   .navbar
     &__menu
-      width: 90px
+      width: 105px
     &__login
-      width: 126px
+      width: 140px
     &__search
-      margin-right: -5px
-
+      margin-right: 5px
+  .solutions
+    padding: 0 15px 92px 40px
 @media (max-width: 1025px)
   .contact
     &__phone, &__email
@@ -98,21 +103,42 @@
   .course
     &__link
       font-size: 18px
-    
-// @media (max-width: 992px)
+  .block-1
+    &__image
+      width: 382px
+      height: 355px
+      margin-right: 50px
+  .block-2
+    &__image
+      width: 363px
+      height: 558px
+  .info
+    &__title
+      font-size: 30px
+    &__text
+      font-size: 16px
+  .footer
+    padding: 100px 0 100px 0
+
+@media (max-width: 1023px)
+  .contact__phone, .contact__email
+    display: none
+  .navbar
+    &__contacts
+      width: 60px
 
 // @media (max-width: 767px)
 // @media (max-width: 576px)
 
 // @media (min-width: 320px) and (max-width: 480px)
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
 @media (max-height: 527px)
   .modal
     &__dialog
