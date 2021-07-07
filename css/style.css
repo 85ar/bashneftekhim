@@ -1240,6 +1240,9 @@ body {
     padding: 5px;
     width: 100%;
   }
+  .navbar__hero {
+    margin-top: -91px;
+  }
   body {
     padding-top: 220px;
   }
@@ -1272,6 +1275,10 @@ body {
   }
   .hero {
     margin-left: 75px;
+  }
+  .courses {
+    padding-top: 0;
+    margin-top: -100px;
   }
   .courses-wrapper {
     width: 600px;
@@ -1426,6 +1433,7 @@ body {
   }
   .courses {
     padding-top: 40px;
+    margin-top: -160px;
   }
   .courses-wrapper {
     width: 300px;
