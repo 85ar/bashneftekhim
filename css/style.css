@@ -1384,9 +1384,19 @@ body {
   .menu__text {
     display: none;
   }
+  .form {
+    margin-right: 12px;
+  }
   .form-search--visible {
     right: 168px;
     top: 65px;
+    padding: 6px 0 0 0;
+    height: 42px;
+    width: 270px;
+  }
+  .form-search__input {
+    padding: 5px 10px;
+    height: 30px;
   }
 }
 
