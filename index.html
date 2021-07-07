@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Башнефтехим></title>
+    <title>Башнефтехим</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
@@ -24,7 +24,11 @@
               <use xlink:href="img/icons.svg#logo-description"></use>
             </svg>
           </a>
-          <a href="#" class="navbar__language language" title="Переключатель не реализован">
+          <a
+            href="#"
+            class="navbar__language language"
+            title="Переключатель не реализован"
+          >
             <svg width="33" height="33" class="language__icon">
               <use xlink:href="img/icons.svg#language"></use>
             </svg>
@@ -49,7 +53,7 @@
             </svg>
             <span class="login__text">ВОЙТИ В LMS</span>
           </a>
-          <button class="navbar__search search">
+          <button class="navbar__search search search-button">
             <svg width="48" height="48" class="search__icon">
               <use xlink:href="img/icons.svg#search"></use>
             </svg>
@@ -331,7 +335,7 @@
         /></a>
 
         <h3 class="modal__title">Авторизация</h3>
-        <form action="" class="modal__form">
+        <form class="modal__form" action="#">
           <input
             type="text"
             class="modal__input"
@@ -339,7 +343,7 @@
           />
           <input type="password" class="modal__input" placeholder="Пароль" />
           <div class="button-info">
-            <button class="modal__button">Войти</button>
+            <button class="modal__button" type="submit">Войти</button>
             <a href="#" class="modal__info">Восстановление пароля</a>
           </div>
         </form>
@@ -347,7 +351,15 @@
       <!-- /.modal__dialog -->
     </div>
     <!-- /.modal -->
-
+    <form action="#" class="form-search">
+      <input
+        type="text"
+        class="form-search__input"
+        placeholder="Что ищем?"
+        name="text"
+      />
+      <button class="form-search__button" type="submit">Найти</button>
+    </form>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/aos.js"></script>

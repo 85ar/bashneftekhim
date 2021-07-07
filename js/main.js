@@ -107,3 +107,8 @@ menuButton.on("click", function () {
 $(window).on("scroll", function () {
   $(".navbar--mobile-fixed").toggleClass("active", $(this).scrollTop() > 5);
 });
+
+var searchButton = $(".search-button");
+searchButton.on("click", function () {
+  $(".form-search").toggleClass("form-search--visible");
+});
