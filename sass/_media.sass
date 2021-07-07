@@ -2,7 +2,7 @@
   .contact
     &-visible
       display: none
-@media (min-width: 767px)
+@media (min-width: 769px)
   .logo
     &-visible
       display: none
@@ -216,11 +216,45 @@
     &-wrapper
       width: 650px
 
-@media (max-width: 767px)
+@media (max-width: 769px)
   .navbar
     background-image: none
     &__menu
       width: 55px
+    &--mobile
+      &-fixed
+        position: fixed
+        left: 0
+        top: 0
+        right: 0
+        z-index: 99
+        padding: 5px
+        // background-color: #d3afa6
+        width: 100%
+  body
+    padding-top: 220px
+  .dropdown
+    &-content
+      display: none
+      &--visible
+        width: 100%
+        background-color: #fff
+        display: block
+        position: fixed
+        left: 0
+        right: 0
+        bottom: 0
+        top: 71px
+        text-align: center
+      &__link
+        margin: 15px
+  .active
+    background-color: #d3afa6
+    left: 0
+    top: 0    
+    padding: 5px
+    width: 100%
+    // top: 71px
   .logo
     &__icon, &__description
       display: none
@@ -401,7 +435,13 @@
   .logo
     &-visible
       margin-right: 0px
-
+  .modal
+    &__input
+      font-size: 10px
+    &__dialog
+      padding: 26px 20px
+    &__form
+      width: 200px
 @media (max-height: 527px)
   .modal
     &__dialog

@@ -97,3 +97,13 @@ $(document).mouseup(function (e) {
     modalDialog.removeClass("modal__dialog--visible");
   }
 });
+
+var menuButton = $(".menu-button");
+menuButton.on("click", function () {
+  $(".dropdown-content").toggleClass("dropdown-content--visible") &&
+    $(".navbar--mobile-fixed").toggleClass("active");
+});
+
+$(window).on("scroll", function () {
+  $(".navbar--mobile-fixed").toggleClass("active", $(this).scrollTop() > 5);
+});
