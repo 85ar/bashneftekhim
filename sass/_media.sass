@@ -16,7 +16,7 @@
       width: 325px
       margin-right: 30px
     &-wrapper
-      justify-content: center
+      justify-content: space-evenly
   .container
     max-width: 1300px
   .block-2
@@ -124,7 +124,7 @@
   .footer
     padding: 100px 0 100px 0
 
-@media (max-width: 1023px)
+@media (max-width: 1024px)
   .contact__phone, .contact__email
     display: none
   .navbar
@@ -134,7 +134,11 @@
     background-position: -57px -22px
     height: 458px
     &__contacts
-      width: 60px
+      width: 100px
+      margin-right: 50px
+    &__login
+      margin-right: 35px
+
   .hero
     margin-left: 475px
     margin-top: -60px
@@ -195,8 +199,6 @@
     &__text
       display: none
   .navbar
-    &__contacts
-      margin-right: 35px
     &__login
       width: 50px
     &__search
@@ -267,7 +269,15 @@
     &__button
       width: 100%
       margin-bottom: 10px
-
+  .swiper
+    &-button
+      &-next
+        background: url(../img/icon-arrow.png)
+        background-repeat: no-repeat
+        background-size: contain
+        width: 50px
+        height: 50px
+        top: 139px
 @media (max-width: 610px)
   .navbar
     &__logo
@@ -282,8 +292,23 @@
 
 @media (max-width: 576px)
   .courses
+    padding-top: 50px
+    &__title
+      font-size: 25px
+      margin-bottom: 12px
     &-wrapper
       width: 450px
+      height: 640px
+  .course
+    height: 60px
+    width: 394px
+    margin-bottom: 20px
+    &__link
+      font-size: 14px
+    &__profession-count, &__course-count
+      font-size: 12px
+    &__info
+      width: 140px
   .block-1
     &__image
       width: 160px
@@ -303,14 +328,79 @@
       margin-right: 0px
     &__search
       margin-right: 10px
-// @media (min-width: 320px) and (max-width: 480px)
+  .navbar
+    &__contacts
+      width: 60px
+      margin-right: 35px
+  .solutions
+    padding-bottom: 70px
+  .partners
+    margin-bottom: 20px
 
+@media (min-width: 320px) and (max-width: 480px)
+  .slide-1
+    &__title
+      font-size: 20px
+      margin-bottom: 18px
+  .hero
+    margin-left: 12px
+    height: 295px
+  .courses
+    padding-top: 40px
+    &-wrapper
+      width: 300px
+      height: 595px
+    &__title
+      width: 220px
+      line-height: 29px
+  .info
+    &__title
+      font-size: 19px
+      margin-bottom: 10px
+    &__text
+      font-size: 14px
+      width: 300px
 
-
-
-
-
-
+  .block-2
+    flex-direction: column
+    &__info
+      margin: 0 auto
+  .swiper
+    &-button
+      &-next
+        top: 83px
+        right: 70px
+  .course
+    width: 310px
+  .solutions
+    padding: 0 10px
+  .block-1
+    flex-direction: column
+    &__image
+      width: 272px
+      height: 181px
+      margin-right: 0
+      margin-bottom: 20px
+  .partners
+    margin-top: 53px
+    margin-bottom: -10px
+  .navbar
+    &__logo
+      margin-right: 0px
+    &__language
+      margin-right: 0px
+    &__contacts
+      width: 57px
+      margin-right: 10px
+    &__login
+      width: 33px
+    &__search
+      margin-right: -8px
+    &__menu
+      width: 50px
+  .logo
+    &-visible
+      margin-right: 0px
 
 @media (max-height: 527px)
   .modal
